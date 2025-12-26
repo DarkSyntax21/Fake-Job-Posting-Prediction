@@ -1,27 +1,9 @@
 # Fake Job Posting Prediction
 
-![Working Project Screenshot](https://raw.githubusercontent.com/38832/Fake-Job-Posting-Prediction/main/assets/Working_screenshot.png)
-
 ## Project Overview
 This project uses an **LSTM-based deep learning model** to detect fraudulent job postings with an accuracy of **98%**. The solution involves extensive data preprocessing (text cleaning, tokenization, and padding), addressing class imbalance using SMOTE, and training an LSTM network to classify postings as either fraudulent or legitimate. The final model is deployed as a Flask web application and is also converted to TensorFlow Lite for edge deployment.
 
 ---
-
-## Table of Contents
-1. [Introduction](#introduction)
-2. [Data Preprocessing](#data-preprocessing)
-3. [Model Training](#model-training)
-4. [Evaluation](#evaluation)
-5. [Deployment](#deployment)
-6. [Technologies Used](#technologies-used)
-7. [Folder Structure](#folder-structure)
-8. [Installation Steps](#installation-steps)
-9. [Conclusion](#conclusion)
-10. [Contributor](#contributor)
-11. [License](#license)
-
----
-
 ## Introduction
 In an era of increasing online job frauds, this project provides a deep learning-based solution to detect fraudulent job postings. By leveraging deep learning techniques and advanced data preprocessing methods, the system aims to help job seekers avoid scams and employers maintain credibility.
 
@@ -93,39 +75,11 @@ The trained model is deployed as a Flask web application, enabling real-time pre
 
 ---
 
-## Folder Structure
-```
-
-├── app.py                      # Flask application for deployment
-├── converting_model.py         # Converts LSTM model to TFLite format
-├── EDA_FAKE_JOB.ipynb          # Jupyter Notebook for Exploratory Data Analysis
-├── Model_Training.ipynb        # Jupyter Notebook for Model Training
-├── fake_job_lstm_model.h5      # Trained LSTM model (H5 format)
-├── fake_job_lstm_model.tflite  # Converted TFLite model
-├── fake_job_postings.csv       # Dataset of job postings
-├── requirements.txt            # Project dependencies
-├── tokenizer.pkl               # Saved tokenizer for text processing
-├── README.md                   # Project documentation
-├── assets/                     # Images and screenshots
-│   ├── keras.png
-│   ├── matplotlib.png
-│   ├── scikit-learn.png
-│   ├── seaborn.png
-│   ├── tensorflow.png
-│   └── Working_screenshot.png  # Screenshot of the working project
-├── static/                     # Custom styles for the web application
-│   └── style.css
-└── templates/                  # HTML template for the Flask application
-    └── index.html
-```
-
----
-
 ## Installation Steps
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/38832/Fake-Job-Posting-Prediction.git
+git clone https://github.com/username/Fake-Job-Posting-Prediction.git
 cd Fake-Job-Posting-Prediction
 ```
 
@@ -154,11 +108,6 @@ The Flask application will start and can be accessed at `http://127.0.0.1:5000/`
 
 ## Conclusion
 This project demonstrates an effective approach to detect fraudulent job postings using deep learning. With an impressive accuracy of **98%**, it provides a reliable solution to mitigate job fraud risks. The integration of advanced data preprocessing techniques, robust model training, and seamless deployment underscores its practical application in real-world scenarios.
-
----
-
-## Contributor
-**Abutalha Shaikh** - [GitHub](https://github.com/38832)
 
 ---
 
